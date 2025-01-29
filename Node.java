@@ -1,5 +1,5 @@
 /**
- * Represents a node in a linked list. Each node points to a MemoryBlock object. 
+ * Represents a node in a linked list. Each node points to a MemoryBlock object.
  */
 public class Node {
 
@@ -8,18 +8,18 @@ public class Node {
 
 	/**
 	 * Constructs a new node, pointing to the given memory block.
-	 * 
-	 * @param block
+	 *
+	 * @param block2
 	 *        the given memory block
 	 */
-	public Node(MemoryBlock block) {
-		this.block = block;
+	public Node(MemoryBlock block2) {
+		this.block = block2;
 	}
-	
+
 	/**
 	 * A textual representation of this node, for debugging.
 	 * The node's contents, which is a memory block, appears within
-	 * curly brackets. For example: {(208,10)}. 
+	 * curly brackets. For example: {(208,10)}.
 	 */
 	public String toString() {
 		return "{" + block + "}";
