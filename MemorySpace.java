@@ -101,7 +101,7 @@ public class MemorySpace {
         }
 
         if (!found) {
-            throw new IllegalArgumentException("Block not found at the given address.");
+            throw new IllegalArgumentException("Block not found at the given address");
         }
     }
 
